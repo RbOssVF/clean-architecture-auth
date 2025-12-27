@@ -1,0 +1,1 @@
+from app.roles.infrastructure.role_model import *
