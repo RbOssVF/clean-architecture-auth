@@ -135,6 +135,15 @@ El `BaseUseCaseHandler` orquestra cada petición siguiendo este flujo:
 
 ---
 
+## ▶️ Quick Demo Flow
+
+1. Login → receive JWT
+2. Use token to access protected routes
+3. Roles and permissions are validated automatically
+4. admin.full_access bypasses permission checks
+
+---
+
 ## 📝 Licencia
 
 Este proyecto está bajo la licencia MIT. Puedes usarlo y modificarlo libremente para tus proyectos personales o comerciales.
